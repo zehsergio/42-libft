@@ -5,10 +5,20 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/11 13:52:31 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/11/11 14:56:38 by jdias-ju         ###   ########.ch       */
+/*   Created: 2025/11/18 10:06:27 by jdias-ju          #+#    #+#             */
+/*   Updated: 2025/11/18 10:06:35 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+	DESCRIPTION :
+	The function ft_split allocates and copies an array of strings by 
+	splitting the given string s using the given separator c.
+
+	RETURN VALUE :
+	An array of strings resulting from the split. NULL if the memory
+	allocation fails.
+*/
 
 #include "libft.h"
 

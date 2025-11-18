@@ -109,6 +109,30 @@ int	main(void)
     printf("Transformed string: %s\n", new_str);
 	
 	free(new_str);
+	// strmapi
+
+ 	// strtrim
+    printf("\n---- strtrim ----\n");
+    char *str16;
+    char *trimmed;
+	char *trimmed_org;
+    char *set;
+
+    set = "ab";
+    str16 = "ababaaaMy name is Joseabbaaabbad";
+    printf("Original string: %s\n", str16);
+	printf("Set trim is: %s\n", set);
+    
+    trimmed = ft_strtrim(str16, set);
+    printf("Trimmed string:  %s\n", trimmed);
+
+	trimmed_org = strtrim(str16, set);
+	printf("Trimmed string with original function:  %s\n", trimmed_org);
+
+    free(trimmed);
+	free(trimmed_org);
+    // strtrim
 
 	return 0;
 }
+

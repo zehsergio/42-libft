@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
+/*   By: jdias-ju <jdias-ju@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/12 21:17:11 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/11/12 21:17:11 by jdias-ju         ###   ########.ch       */
+/*   Created: 2025/11/18 11:03:33 by jdias-ju          #+#    #+#             */
+/*   Updated: 2025/11/18 11:03:33 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,4 +52,5 @@ char	*ft_strjoin(const char *s1, const char *s2);
 char	**ft_split(char const *s, char c);
 char	*ft_itoa(int n);
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char));
+char	*ft_strtrim(char const *s1, char const *set);
 #endif
