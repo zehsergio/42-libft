@@ -59,6 +59,11 @@ int	main(void)
 	printf("'31' → ft: %d | real: %d\n", ft_isprint(31),  isprint(31));
 	// isprint
 
+	// strlen
+	printf("\n---- ft_stelen vs strlen ----\n");
+	printf("Ft: \"Hello World!\" has a length of %zu\nOriginal: \"Hello world!\" has a length of %lu\n", ft_strlen("Hello World!"), strlen("Hello World!"));
+	// strlen
+
 	// calloc
 	printf("\n---- calloc ----\n");
 	int	*calloc_test;

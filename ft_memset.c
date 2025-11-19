@@ -5,15 +5,15 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/08 17:47:11 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/11/10 10:38:58 by jdias-ju         ###   ########.ch       */
+/*   Created: 2025/11/18 18:18:09 by jdias-ju          #+#    #+#             */
+/*   Updated: 2025/11/18 18:18:09 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
 	DESCRIPTION :
 	The function ft_memset fills the first len bytes of the memory area
-	pointed	to by b with the byte c. Both b and c are interpreted as 
+	pointed	to by dest with the byte c. Both dest and c are interpreted as 
 	unsigned char.
 
 	RETURN VALUE :
@@ -24,10 +24,15 @@
 
 void	*ft_memset(void *dest, int c, size_t len)
 {
+	size_t			i;	
 	unsigned char	*p;
 
-	p = dest;
-	while (len-- > 0)
-		*p++ = (unsigned char)c;
+	i = 0;
+	p = (unsigned char *)dest;
+	while (i < len)
+	{
+		p[i] = (unsigned char)c;
+		i++;
+	}
 	return (dest);
 }
