@@ -5,15 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/10 10:42:06 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/11/10 10:42:06 by jdias-ju         ###   ########.ch       */
+/*   Created: 2025/11/19 12:57:17 by jdias-ju          #+#    #+#             */
+/*   Updated: 2025/11/19 12:57:56 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
 	DESCRIPTION :
-	The function ft_strlcpy copies up to size - 1 characters from the given
-	string src to the given string dst, nul-terminating the result.
+	The function ft_strlcpy copies up to size - 1 characters 
+	from the given string src to the given string dst, 
+	nul-terminating the result.
 
 	Note : space for the terminating \0 character must be included in dstsize.
 

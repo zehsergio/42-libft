@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/18 10:06:27 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/11/18 10:06:35 by jdias-ju         ###   ########.ch       */
+/*   Created: 2025/11/19 13:49:31 by jdias-ju          #+#    #+#             */
+/*   Updated: 2025/11/19 14:28:00 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,7 +94,7 @@ char	**ft_split(char const *s, char c)
 	{
 		skip_seps(s, c, &i);
 		if (!s[i])
-			break ;
+			break;
 		words[j] = word_splitter(&s[i], c);
 		if (!words[j])
 			return (free_array(words, j), NULL);

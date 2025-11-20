@@ -5,15 +5,15 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/18 18:18:30 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/11/18 18:21:48 by jdias-ju         ###   ########.ch       */
+/*   Created: 2025/11/19 12:57:50 by jdias-ju          #+#    #+#             */
+/*   Updated: 2025/11/19 12:57:50 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
 	DESCRIPTION :
-	The function ft_memcpy copies n (size_t 'n') bytes from memory area src to memory
-	area dest.
+	The function ft_memcpy copies n (size_t 'n') bytes from 
+	memory area src to memory area dest.
 	Does not account for memory overlaps. 
 
 	RETURN VALUE :
